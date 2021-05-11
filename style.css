@@ -14,15 +14,15 @@
   --warm-blue: #3a5edd;
   --butterscotch: #ffb44d;
 }
+html{
+  font-size: 62.5%;
+}
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-.Landing-Page {
-  width: 1280px;
-  background-color: var(--white);
-}
+
 a{
   text-decoration: none;
 }
@@ -33,10 +33,11 @@ ul{
     max-width: 100%;
     height: auto;
 }
+.Landing-Page {
+  background-color: var(--white);
+}
 .Rectangle {
-  width: 1280px;
-  height: 80px;
-  margin: 0 0 70px;
+  margin: 0;
   padding: 22px 70px;
   box-shadow: 0 12px 30px -19px rgba(0, 0, 0, 0.2);
   border: solid 1px #e5eff2;
@@ -45,119 +46,633 @@ ul{
 .alogoaicolour {
   width: 207px;
   height: 30px;
-  margin: 25px 554px 25px 70px;
+  margin: 3px 554px 3px 0;
   object-fit: contain;
 }
 .Home {
-  font-family: 'Nunito', sans-serif;
-  margin:26px 40px 26px 0px;
+  margin: 4px 40px 4px 0;
+  font-family: 'Nunito';
   font-size: 16px;
+  font-weight: bold;
   font-stretch: normal;
   font-style: normal;
-  line-height: 26px;
-  font-weight: bold;
-  letter-spacing: 0;
+  line-height: 1.63;
+  letter-spacing: normal;
   text-align: center;
   color: #335ce5;
 }
+.button{
+  width: 15rem;
+  height: 4.6rem;
+  margin: .5rem 0 0 70px;
+  border-radius: 6px;
+  background-color: var(--azure);
+}
 
 .Color {
-  width: 110px;
-  height: 36px;
-  margin: 0;
+  width: 11rem;
+  height: 3.6rem;
+ margin: .5rem 0 0 0;
   border-radius: 6px;
   background-color: var(--azure);
 }
 .Enter-button-text {
   font-family: 'Nunito';
-  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: bold;
-  line-height: 1.63;
+  line-height: 2.6rem;
   letter-spacing: 0;
   text-align: center; 
   color: var(--white);
+  margin-bottom: 0;
+}
+.Background {
+
+  margin: 0 0 71px;
+  padding: 0 0 12px;
+  object-fit: contain;
 }
 .Master-Machine-Learn {
-  margin: 120px 0 10px 70px;
+  margin: 120px 0 0 70px;
   font-family: 'Nunito';
   font-size: 55px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
-  line-height: 70px;
-  letter-spacing: 0;
+  line-height: 1.27;
+  letter-spacing: normal;
   color: var(--dark);
 }
 .in-just-3-Months {
-  margin: 10px 0 30px 70px;
-  font-family: 'Nunito';
-  font-size: 55px;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 70px;
-  letter-spacing: 0;
-  color: var(--dark);
-}
-.aiconscommongreen_tick {
-  width: 20px;
-  height: 20px;
-  margin: 5px 20px 5px 70px;
-  object-fit: contain;
-}
-
-
-.oval_text{
-  font-family: 'Nunito';
-  font-size: 20px;
-  font-weight: regular;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 30px;
-  letter-spacing: 0;
-  color: var(--dark);
-}
-.button{
-  width: 151px;
-  height: 46px;
-  margin: 10px 0 0 70px;
-  border-radius: 6px;
-  background-color: var(--azure);
-}
-.explore_text {
-  font-family: 'Nunito';
-  font-size: 20px;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 30px;
-  letter-spacing: 0;
-  text-align: center;
-  color: var(--white);
-}
-.AI-Educator-ill_02-01 {
-  width: 654px;
-  height: 659px;
-  margin: 70px 69px 0 0;
-  object-fit: contain;
-}
-.Group-49 {
-  width: 1280px;
-  height: 725px;
-  margin: 71px 0 64px;
-  object-fit: contain;
-}
-.Our-Courses {
-  margin: 0 412px 60px;
+  margin: 10px 216px 30px 70px;
   font-family: Nunito;
   font-size: 55px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
+  line-height: 1.27;
+  letter-spacing: normal;
+  color: var(--dark);
+}
+.aiconscommongreen_tick {
+  width: 20px;
+  height: 20px;
+  margin: 5px 0px 5px 70px;
+  object-fit: contain;
+}
+.oval_text{
+  margin: 0 0 0 20px;
+  font-family: 'Nunito';
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: var(--dark);
+}
+
+.explore_text {
+  font-family: 'Nunito';
+  font-size: 2rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 3rem;
+  letter-spacing: 0;
+  text-align: center;
+  color: var(--white);
+}
+.Fill-57 {
+  width: 6.33rem;
+  height: 6.32rem;
+  margin: 160px 0 66.1px 180px;
+  object-fit: contain;
+  border-radius: 50%;
+  background-color: var(--warm-blue);
+}
+.AI-Educator-ill_02-01 {
+  /* width: 654px;
+  height: 659px; */
+  margin: 70px 0 0 0;
+  object-fit: contain;
+}
+.Group-49 {
+  /* width: 1280px;
+  height: 725px; */
+  margin: 71px 0 64px;
+  object-fit: contain;
+}
+.Our-Courses {
+  margin: 0 0 60px;
+  font-family: 'Nunito';
+  font-size: 5.5rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 7rem;
+  letter-spacing: 0;
+  text-align: center;
+  color: var(--dark);
+}
+.mcardcourse_detail {
+  width: 36rem;
+  height: 26rem;
+  margin: 0 30px 0 0;
+  object-fit: contain;
+}
+.illus {
+  height: 17rem;
+  object-fit: contain;
+  }
+
+.aiconscommonhours {
+  width: 20px;
+  height: 21px;
+  object-fit: contain;
+}
+.card-title {
+  margin:0px 78px 0px 20px;
+  font-family: 'Nunito';
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 30px;
+  letter-spacing: 0;
+  color: var(--dark);
+}
+.hours {
+  font-family: 'Nunito';
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 26px;
+  letter-spacing: 0;
+  color: var(--dark-grey-blue);
+}
+.aiconscommonhours {
+  width: 20px;
+  height: 21px;
+  object-fit: contain;
+  margin:20px;
+}
+.button1{
+  width: 218px;
+  height: 46px;
+  margin: 60px 0 0 0;
+  border-radius: 6px;
+  background-color: var(--azure);
+}
+.What-makes-us-differ {
+  margin: 120px 5px 0px;
+  font-family: 'Nunito';
+  font-size: 55px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
   line-height: 70px;
   letter-spacing: 0;
   text-align: center;
   color: var(--dark);
 }
 
+.What-makes-us-differ .text-style-1 {
+  color: var(--topaz);
+}
+.Group-30 {
+  width: 464px;
+  height: 458px;
+  margin: 60px 3px 0px 97px;
+  object-fit: contain;
+}
+.Zone-of-Proximal-Fai {
+  margin: 126px 51px 15px 54px;
+  font-family: 'Nunito';
+  font-size: 40px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 50px;
+  letter-spacing: 0;
+  color: var(--dark);
+}
+.commontxt {
+ 
+  margin: 0 80px 15px 54px;
+  font-family: 'Nunito';
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 30px;
+  letter-spacing: 0;
+  color: var(--dark-grey-blue);
+}
+.aiconsbanner_video {
+  width: 32px;
+  height: 32px;
+  margin: 0 9px 0 0;
+  object-fit: contain;
+}
+.Problem-Solving-Gap {
+  margin: 152px 60px 15px 97px;
+  font-family: 'Nunito';
+  font-size: 40px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height:50px;
+  letter-spacing: 0;
+  color: var(--dark);
+}
+.commontxt2 {
+ 
+  margin: 0 60px 0px 97px;
+  font-family: 'Nunito';
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 30px;
+  letter-spacing: 0;
+  color: var(--dark-grey-blue);
+}
+.button32 {
+  width: 230px;
+  height: 46px;
+  margin-left: 97px;
+  border-radius: 6px;
+  background-color: var(--azure);
+}
+.Group-44-Copy {
+  width: 458px;
+  height: 480px;
+  margin: 60px 0 0 0;
+  object-fit: contain;
+}
+.button3 {
+  width: 230px;
+  height: 46px;
+  margin-left: 57px;
+  border-radius: 6px;
+  background-color: var(--azure);
+}
+.Group-44 {
+  width: 459px;
+  height: 482px;
+  margin: 0px 8px 60px 97px;
+  object-fit: contain;
+}
+.Mentor {
+  margin: 122px 0 15px 54px;
+  font-family: 'Nunito';
+  font-size: 40px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  color: var(--dark);
+}
+.Group-Learning {
+  margin: 197px 66px 15px 97px;
+  font-family: 'Nunito';
+  font-size: 40px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  color: var(--dark);
+}
+.Group-62 {
+  width: 492px;
+  height: 458px;
+  margin: 60px 168px 60px 26px;
+  object-fit: contain;
+}
+.Group-30-2 {
+  width: 480px;
+  height: 479px;
+  margin: 0 7px 0px 97px;
+  object-fit: contain;
+}
+.Virtual-Classroom {
+  margin: 102px 98px 15px 51px;
+  font-family: 'Nunito';
+  font-size: 40px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  color: var(--dark);
+}
+.Major-Projects {
+  margin: 173px 66px 15px 97px;
+  font-family: 'Nunito';
+  font-size: 40px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  color: var(--dark);
+}
+.Group-47 {
+  width: 507px;
+  height: 458px;
+  margin: 60px 139px 0px 3px;
+  object-fit: contain;
+}
+.Career-Support {
 
+  margin: 147px 0 15px 51px;
+  font-family: 'Nunito';
+  font-size: 40px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  color: var(--dark);
+}
+.With-all-these-you-c {
+  margin: 60px 0 15px 15px;
+  font-family: 'Nunito';
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.42;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--dark);
+}
+
+.With-all-these-you-c .text-style-1 {
+  color: var(--topaz);
+}
+.The-future-of-our-wo {
+
+  margin: 15px 0 0;
+  font-family: 'Nunito';
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--dark-grey-blue);
+}
+.Get-Ahead-with-AI-Ed {
+  margin: 200px 164px 0 166px;
+  font-family: 'Nunito';
+  font-size: 55px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.27;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--dark);
+}
+
+.Get-Ahead-with-AI-Ed .text-style-1 {
+  color: #00cdb9;
+}
+.acertificate {
+  width: 555px;
+  height: 399px;
+  margin: 60px 322px 30px 413px;
+  object-fit: contain;
+}
+.Rectangle-Copy-3 {
+  width: 750px;
+  height: 179px;
+  margin: 0px 1px 0 218px;
+  border-radius: 10px;
+  box-shadow: 0 12px 30px -19px rgba(0, 0, 0, 0.2);
+  border: solid 1px #e5eff2;
+  background-color: var(--white);
+}
+.Our-Constant-Support {
+  margin: 136px 195px 60px 194px;
+  font-family: 'Nunito';
+  font-size: 55px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.27;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--dark);
+}
+
+.Our-Constant-Support .text-style-1 {
+  color: #1f2245;
+}
+
+.Our-Constant-Support .text-style-2 {
+  color: #00d1b9;
+}
+
+.Our-Constant-Support .text-style-3 {
+  color: #00cdb9;
+}
+.cardrectangle{
+  width: 360px;
+  height: 423px;
+  margin: 0 29px 0 0;
+  /* padding: 30px 40px; */
+  border-radius: 10px;
+  box-shadow: 0 12px 30px -19px rgba(0, 0, 0, 0.2);
+  border: solid 1px #e5eff2;
+  text-align: center;
+ 
+  background-color: var(--white);
+}
+.aprofile3 {
+  width: 100px;
+  height: 100px;
+  margin: 30px 132px 0;
+  text-align: center;
+  object-fit: contain;
+}
+.card-titles{
+  margin: 30px 9px 5px;
+  font-family: 'Nunito';
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: var(--dark);
+}
+.card_texts {
+  margin: 5px 0 0;
+  font-family: 'Nunito';
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--dark-grey-blue);
+}
+.cardpara {
+  margin: 20px 40px;
+  font-family: 'Nunito';
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--dark-grey-blue);
+}
+.Download-the-App-Now {
+  font-family: 'Nunito';
+  margin-top: 70px;
+  text-align: center;
+  font-size: 51px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.27;
+  letter-spacing: normal;
+  color: var(--dark);
+}
+.mbuttonsplaystoregoogle_play {
+  background-image: url('images/bg.svg');
+  width: 165px;
+  height: 48px;
+  object-fit: contain;
+}
+.amockupdownload_app {
+  width: 354px;
+  height: 454px;
+  object-fit: contain;
+}
+.Featured-Articles- {
+  margin: 0 293px 60px 294px;
+  font-family: 'Nunito';
+  font-size: 55px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.27;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--dark);
+}
+
+.Featured-Articles- .text-style-1 {
+  color: #00d1b9;
+}
+
+.Featured-Articles- .text-style-2 {
+  color: #00cdb9;
+}
+.Artificial-Intellige {
+  margin: 20px 20px 10px;
+  font-family: 'Nunito';
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: var(--dark);
+}
+.Artificial-para {
+ 
+  margin: 10px 20px 15px;
+  font-family: 'Nunito';
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: var(--dark-grey-blue);
+}
+.Dont-want-to-miss-a {
+  margin: 0 0 15px 0;
+  font-family: 'Nunito';
+  font-size: 40px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  color: var(--dark);
+}
+.Get-weekly-updates-o {
+  margin: 0px 19px 30px 0;
+  font-family: 'Nunito';
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: var(--dark-grey-blue);
+}
+
+.aillustrationarticle_detailnewsletter {
+  width: 354px;
+  height: 354px;
+  margin: 0 0 0 83px;
+  object-fit: contain;
+}
+.Courses {
+  margin: 0 188px 40px 0;
+  font-family: 'Nunito';
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: var(--dark);
+}
+.Connect-with-Us {
+  margin: 0 17px 40px 0;
+  font-family: 'Nunito';
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: var(--dark);
+}
+.Explore {
+  margin: 0 130px 15px 0;
+  font-family: 'Nunito';
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.63;
+  letter-spacing: normal;
+  color: var(--dark-grey-blue);
+}
+.Copyright-2020-AI {
+  margin: 0 659px 1px 0;
+  font-family: Nunito;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  color: var(--dark-grey-blue);
+}
