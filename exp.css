@@ -34,54 +34,45 @@ ul{
     height: auto;
 }
 .Landing-Page {
-  padding: 0;
   background-color: var(--white);
-  width: 100%;
-  height: auto;
-  margin: 0;
 }
-.rectangle{
-padding: 2rem 7rem;
+.Rectangle {
+  margin: 0;
+  padding: 22px 70px;
+  box-shadow: 0 12px 30px -19px rgba(0, 0, 0, 0.2);
+  border: solid 1px #e5eff2;
+  background-color: var(--white);
 }
 .alogoaicolour {
-  width: 20.7rem;
-  height: 3rem;
+  width: 207px;
+  height: 30px;
+  margin: 3px 554px 3px 0;
   object-fit: contain;
 }
 .Home {
-  font-family:'Nunito';
-  font-size: 1.6rem;
+  margin: 4px 40px 4px 0;
+  font-family: 'Nunito';
+  font-size: 16px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
-  line-height: 2.6rem;
+  line-height: 1.63;
   letter-spacing: normal;
+  text-align: center;
   color: #335ce5;
-  margin-right: 4rem;
 }
 .button{
   width: 15rem;
   height: 4.6rem;
-  text-align: center;
-  margin-left: 7rem;
+  margin: .5rem 0 0 70px;
   border-radius: 6px;
   background-color: var(--azure);
 }
-.button-text{
-  font-family: 'Nunito';
-  font-size: 1.6rem;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 2.6rem;
-  letter-spacing: normal;
-  text-align: center;
-  color: var(--white);
-}
+
 .Color {
   width: 11rem;
   height: 3.6rem;
-  margin: .5rem 0 0 0;
+ margin: .5rem 0 0 0;
   border-radius: 6px;
   background-color: var(--azure);
 }
@@ -95,10 +86,16 @@ padding: 2rem 7rem;
   color: var(--white);
   margin-bottom: 0;
 }
+.Background {
+
+  margin: 0 0 71px;
+  padding: 0 0 12px;
+  object-fit: contain;
+}
 .Master-Machine-Learn {
-  margin: 12rem 0 0 7rem;
+  margin: 120px 0 0 70px;
   font-family: 'Nunito';
-  font-size: 5rem;
+  font-size: 55px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -107,9 +104,9 @@ padding: 2rem 7rem;
   color: var(--dark);
 }
 .in-just-3-Months {
-  margin: 10px 0 30px 70px;
+  margin: 10px 216px 30px 70px;
   font-family: 'Nunito';
-  font-size: 5rem;
+  font-size: 55px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -120,10 +117,9 @@ padding: 2rem 7rem;
 .aiconscommongreen_tick {
   width: 20px;
   height: 20px;
-  margin: .5rem 0 .5rem 7rem;
+  margin: 5px 0px 5px 70px;
   object-fit: contain;
 }
-
 .oval_text{
   margin: 0 0 0 20px;
   font-family: 'Nunito';
@@ -131,7 +127,7 @@ padding: 2rem 7rem;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
-  line-height: 3rem;
+  line-height: 1.5;
   letter-spacing: normal;
   color: var(--dark);
 }
@@ -168,7 +164,7 @@ padding: 2rem 7rem;
   object-fit: contain;
 }
 .Our-Courses {
-  margin: 0 0 40px;
+  margin: 0 0 60px;
   font-family: 'Nunito';
   font-size: 5.5rem;
   font-weight: bold;
@@ -179,65 +175,64 @@ padding: 2rem 7rem;
   text-align: center;
   color: var(--dark);
 }
-/* .mcardcourse_detail {
+.mcardcourse_detail {
   width: 36rem;
   height: 26rem;
-  margin-left: 7rem;
+  margin: 0 30px 0 0;
   object-fit: contain;
-} */
-/* .card2{
-margin-left: 4rem;
 }
-.card3{
-margin-left: 1rem;
-} */
-.ourcard{
-  /* width: 36rem; */
-  height: 26rem;
-}
+.illus {
+  height: 17rem;
+  object-fit: contain;
+  }
 
+.aiconscommonhours {
+  width: 20px;
+  height: 21px;
+  object-fit: contain;
+}
 .card-title {
-  margin:0px 0 0px 20px;
+  margin:0px 78px 0px 20px;
   font-family: 'Nunito';
-  font-size: 2rem;
+  font-size: 20px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
-  line-height: 3rem;
+  line-height: 30px;
   letter-spacing: 0;
   color: var(--dark);
 }
 .hours {
   font-family: 'Nunito';
-  font-size: 1.6rem;
+  font-size: 16px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
-  line-height: 2.6rem;
-  letter-spacing: normal;
+  line-height: 26px;
+  letter-spacing: 0;
   color: var(--dark-grey-blue);
 }
 .aiconscommonhours {
-  width: 2rem;
-  height: 2.1rem;
+  width: 20px;
+  height: 21px;
   object-fit: contain;
   margin:20px;
 }
 .button1{
-  width: 21.8rem;
-  height: 4.6rem;
-  margin: 6rem 0 0 0;
-  border-radius: .6rem;
+  width: 218px;
+  height: 46px;
+  margin: 60px 0 0 0;
+  border-radius: 6px;
   background-color: var(--azure);
 }
 .What-makes-us-differ {
-  margin: 12rem 0 0 0;
+  margin: 120px 5px 0px;
   font-family: 'Nunito';
-  font-size: 5.5rem;
+  font-size: 55px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
-  line-height: 7rem;
+  line-height: 70px;
   letter-spacing: 0;
   text-align: center;
   color: var(--dark);
@@ -247,11 +242,13 @@ margin-left: 1rem;
   color: var(--topaz);
 }
 .Group-30 {
-  margin: 60px 0 0 0;
+  width: 464px;
+  height: 458px;
+  margin: 60px 3px 0px 97px;
   object-fit: contain;
 }
 .Zone-of-Proximal-Fai {
-  margin: 126px 180px 15px 54px;
+  margin: 126px 51px 15px 54px;
   font-family: 'Nunito';
   font-size: 40px;
   font-weight: bold;
@@ -262,7 +259,8 @@ margin-left: 1rem;
   color: var(--dark);
 }
 .commontxt {
-  margin: 0 54px 15px 54px;
+ 
+  margin: 0 80px 15px 54px;
   font-family: 'Nunito';
   font-size: 20px;
   font-weight: normal;
@@ -279,54 +277,80 @@ margin-left: 1rem;
   object-fit: contain;
 }
 .Problem-Solving-Gap {
-  margin: 152px 16px 15px 163px;
+  margin: 152px 60px 15px 97px;
   font-family: 'Nunito';
-  font-size: 4rem;
+  font-size: 40px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
-  line-height:5rem;
-  letter-spacing: normal;
+  line-height:50px;
+  letter-spacing: 0;
   color: var(--dark);
 }
 .commontxt2 {
-  margin: 0 0 15px 163px;
+ 
+  margin: 0 60px 0px 97px;
   font-family: 'Nunito';
-  font-size: 2rem;
+  font-size: 20px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
-  line-height: 3rem;
+  line-height: 30px;
   letter-spacing: 0;
   color: var(--dark-grey-blue);
 }
-
+.button32 {
+  width: 230px;
+  height: 46px;
+  margin-left: 97px;
+  border-radius: 6px;
+  background-color: var(--azure);
+}
 .Group-44-Copy {
-  /* width: 458px;
-  height: 480px; */
+  width: 458px;
+  height: 480px;
   margin: 60px 0 0 0;
   object-fit: contain;
 }
 .button3 {
   width: 230px;
   height: 46px;
-  margin-left: 54px;
+  margin-left: 57px;
   border-radius: 6px;
   background-color: var(--azure);
 }
 .Group-44 {
-  /* width: 459px;
-  height: 482px; */
-  margin: 60px 3px 0px 0;
+  width: 459px;
+  height: 482px;
+  margin: 0px 8px 60px 97px;
   object-fit: contain;
 }
-
-
+.Mentor {
+  margin: 122px 0 15px 54px;
+  font-family: 'Nunito';
+  font-size: 40px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  color: var(--dark);
+}
+.Group-Learning {
+  margin: 197px 66px 15px 97px;
+  font-family: 'Nunito';
+  font-size: 40px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  color: var(--dark);
+}
 .Group-62 {
-  /* width: 492px;
+  width: 492px;
   height: 458px;
-  margin: 60px 168px 60px 26px; */
-  margin: 60px 0 0 0;
+  margin: 60px 168px 60px 26px;
   object-fit: contain;
 }
 .Group-30-2 {
@@ -405,8 +429,7 @@ margin-left: 1rem;
   color: var(--dark-grey-blue);
 }
 .Get-Ahead-with-AI-Ed {
-  margin: 120px 0 0 0;
-  padding-top: 80px;
+  margin: 200px 164px 0 166px;
   font-family: 'Nunito';
   font-size: 55px;
   font-weight: bold;
@@ -424,20 +447,20 @@ margin-left: 1rem;
 .acertificate {
   width: 555px;
   height: 399px;
-  margin: 60px 0 30px 0;
+  margin: 60px 322px 30px 413px;
   object-fit: contain;
 }
 .Rectangle-Copy-3 {
   width: 750px;
   height: 179px;
-  margin: 0px 1px 0 0;
+  margin: 0px 1px 0 306px;
   border-radius: 10px;
   box-shadow: 0 12px 30px -19px rgba(0, 0, 0, 0.2);
   border: solid 1px #e5eff2;
   background-color: var(--white);
 }
 .Our-Constant-Support {
-  margin: 136px 0 60px 0;
+  margin: 136px 195px 60px 194px;
   font-family: 'Nunito';
   font-size: 55px;
   font-weight: bold;
@@ -461,23 +484,22 @@ margin-left: 1rem;
   color: #00cdb9;
 }
 .cardrectangle{
-  /* width: 360px; */
-  /* height: 423px; */
-  /* margin: 0 29px 0 0; */
+  width: 360px;
+  height: 423px;
+  margin: 0 29px 0 0;
   /* padding: 30px 40px; */
   border-radius: 10px;
   box-shadow: 0 12px 30px -19px rgba(0, 0, 0, 0.2);
   border: solid 1px #e5eff2;
   text-align: center;
-  align-items: center;
+ 
   background-color: var(--white);
 }
 .aprofile3 {
   width: 100px;
   height: 100px;
-  margin: 30px 0 0 0;
+  margin: 30px 132px 0;
   text-align: center;
- 
   object-fit: contain;
 }
 .card-titles{
@@ -515,15 +537,11 @@ margin-left: 1rem;
   text-align: center;
   color: var(--dark-grey-blue);
 }
-.downloadsec{
-  margin: 119px 0 121px;
-  object-fit: contain; background-image: url('images/bg.svg');
-}
 .Download-the-App-Now {
   font-family: 'Nunito';
-  margin-top: 7rem;
+  margin-top: 70px;
   text-align: center;
-  font-size: 5.1rem;
+  font-size: 51px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -597,7 +615,7 @@ margin-left: 1rem;
   color: var(--dark);
 }
 .Get-weekly-updates-o {
-  margin: 0px 0 30px 0;
+  margin: 0px 19px 30px 0;
   font-family: 'Nunito';
   font-size: 20px;
   font-weight: normal;
@@ -669,51 +687,4 @@ margin-left: 1rem;
   line-height: 1.67;
   letter-spacing: normal;
   color: var(--dark-grey-blue);
-}
-
-
-
-
-@media (min-width: 1281px) {
-
-  
-}
-
-@media (min-width: 1025px) and (max-width: 1280px) {
-.tickcol{
-  width: 100%;
-}
-}
-
-@media (min-width: 768px) and (max-width: 1024px) {
-.tickcol{
-  width: 100%;
-}
-  
-}
-
-@media (min-width: 481px) and (max-width: 767px) {
-  .ourcard{
-    width: 36rem;
-    height: 26rem;
-  }
- 
-
-
-  
-}
-
-
-
-@media (min-width: 320px) and (max-width: 480px) {
-  .ourcard{
-    width: 36rem;
-    height: 26rem;
-  }
- 
-}
-@media(min-width:0px) and (max-width:319px){
-  .tickcol{
-  width: 100%;
-}
 }
