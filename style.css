@@ -585,6 +585,12 @@ margin-left: 1rem;
   letter-spacing: normal;
   color: var(--dark-grey-blue);
 }
+.mailboxsec{
+  margin: 120px 70px 0 70px ;background-color: #f0f5f9;  
+}
+.mailboxcol{
+  padding: 70px;
+}
 .Dont-want-to-miss-a {
   margin: 0 0 15px 0;
   font-family: 'Nunito';
@@ -598,6 +604,7 @@ margin-left: 1rem;
 }
 .Get-weekly-updates-o {
   margin: 0px 0 30px 0;
+ 
   font-family: 'Nunito';
   font-size: 20px;
   font-weight: normal;
@@ -607,12 +614,30 @@ margin-left: 1rem;
   letter-spacing: normal;
   color: var(--dark-grey-blue);
 }
-
+.mailboximg{
+  padding: 48px 70px 48px 13px;
+}
 .aillustrationarticle_detailnewsletter {
-  width: 354px;
-  height: 354px;
-  margin: 0 0 0 83px;
+  /* width: 354px;
+  height: 354px; */
+  
+  /* margin: 0 0 0 83px; */
   object-fit: contain;
+}
+.emaillabel{
+  font-family: "Nunito";
+  font-weight: normal;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  letter-spacing: normal;
+  color: #383e69;
+}
+.emailtext{
+  font-family: 'Nunito';
+}
+.emailinp{
+  border: none;
+  background-color: #f0f5f9;
 }
 .Courses {
   margin: 0 188px 40px 0;
@@ -624,6 +649,11 @@ margin-left: 1rem;
   line-height: 1.5;
   letter-spacing: normal;
   color: var(--dark);
+}
+.footersec{
+  margin: 120px 0 0;
+  padding: 70px 70px 70px 0;
+  background-color: var(--pale-grey);
 }
 .Connect-with-Us {
   margin: 0 17px 40px 0;
