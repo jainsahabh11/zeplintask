@@ -485,7 +485,7 @@ margin-left: 25px;
 .cardrectangle{
   border-radius: 10px;
   box-shadow: 0 12px 30px -19px rgba(0, 0, 0, 0.2);
-  padding: 40px 40px 30px 40px;
+  padding: 40px 30px 30px 40px;
   border: solid 1px #e5eff2;
   text-align: center;
   align-items: center;
@@ -757,6 +757,15 @@ background-color: blue;
 
   border: 10px solid white;
 border-radius: 50%;
+}
+.cardcol1{
+  padding-left: 70px;
+}
+.cardcol2{
+  padding: 0 30px;
+}
+.cardcol3{
+  padding-right: 70px;
 }
 
 
