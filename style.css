@@ -123,8 +123,6 @@ padding: 2rem 7rem;
   line-height: 1.27;
   letter-spacing: normal;
   color: var(--dark);
-}.imgcol{
-margin-left: 25px;
 }
 
 .aiconscommongreen_tick {
@@ -177,6 +175,9 @@ margin-left: 25px;
   margin: 71px 0 64px;
   object-fit: contain;
 }
+.ourCourses{
+  padding: 0 70px;
+}
 .Our-Courses {
   margin: 0 0 40px;
   font-family: 'Nunito';
@@ -221,12 +222,12 @@ margin-left: 25px;
 .button1{
   width: 21.8rem;
   height: 4.6rem;
-  margin: 6rem 0 0 0;
+
   border-radius: .6rem;
   background-color: var(--azure);
 }
 .What-makes-us-differ {
-  margin: 12rem 0 0 0;
+
   font-family: 'Nunito';
   font-size: 5.5rem;
   font-weight: bold;
@@ -237,6 +238,9 @@ margin-left: 25px;
   text-align: center;
   color: var(--dark);
 }
+.differentpadding{
+  padding: 60px 97px;
+}
 
 .What-makes-us-differ .text-style-1 {
   color: var(--topaz);
@@ -246,7 +250,7 @@ margin-left: 25px;
   object-fit: contain;
 }
 .Zone-of-Proximal-Fai {
-  margin: 126px 180px 15px 54px;
+  margin: 126px 0 15px 54px;
   font-family: 'Nunito';
   font-size: 40px;
   font-weight: bold;
@@ -257,7 +261,7 @@ margin-left: 25px;
   color: var(--dark);
 }
 .commontxt {
-  margin: 0 54px 15px 54px;
+  margin: 0 0 15px 54px;
   font-family: 'Nunito';
   font-size: 20px;
   font-weight: normal;
@@ -274,7 +278,7 @@ margin-left: 25px;
   object-fit: contain;
 }
 .Problem-Solving-Gap {
-  margin: 152px 16px 15px 163px;
+  margin: 152px 0 15px 0;
   font-family: 'Nunito';
   font-size: 4rem;
   font-weight: bold;
@@ -285,7 +289,7 @@ margin-left: 25px;
   color: var(--dark);
 }
 .commontxt2 {
-  margin: 0 0 15px 163px;
+  margin: 0 0 15px 0;
   font-family: 'Nunito';
   font-size: 2rem;
   font-weight: normal;
@@ -300,19 +304,17 @@ margin-left: 25px;
 .Group-44-Copy {
   /* width: 458px;
   height: 480px; */
-  margin: 60px 0 0 0;
+  margin: 60px 0 0 54px;
   object-fit: contain;
 }
 .button3 {
-  width: 230px;
+  width: 190px;
   height: 40px;
   margin-left: 54px;
   border-radius: 6px;
   background-color: var(--azure);
 }
-.btn3{
-  margin-left: 163px;
-}
+
 .Group-44 {
   /* width: 459px;
   height: 482px; */
@@ -375,7 +377,7 @@ margin-left: 25px;
   color: var(--dark);
 }
 .With-all-these-you-c {
-  margin: 60px 0 15px 15px;
+  /* margin: 0 0 15px 0; */
   font-family: 'Nunito';
   font-size: 24px;
   font-weight: bold;
@@ -407,7 +409,7 @@ margin-left: 25px;
   background-color: var(--pale-grey);
 }
 .Get-Ahead-with-AI-Ed {
-  margin: 120px 0 0 0;
+  margin: 60px 0 0 0;
   padding-top: 80px;
   font-family: 'Nunito';
   font-size: 55px;
@@ -424,8 +426,8 @@ margin-left: 25px;
   color: #00cdb9;
 }
 .acertificate {
-  width: 555px;
-  height: 399px;
+  /* width: 555px;
+  height: 399px; */
   margin: 60px 0 156px 0;
   object-fit: contain;
 }
@@ -493,10 +495,7 @@ margin-left: 25px;
 }
 .aprofile3 {
   width: 100px;
-  height: 100px;
-
-  text-align: center;
- 
+  height: 100px; 
   object-fit: contain;
 }
 .card-titles{
@@ -560,16 +559,16 @@ margin-left: 25px;
 }
 .mbuttonsplaystoregoogle_play {
   background-image: url('images/bg.svg');
-  width: 165px;
-  height: 48px;
+  /* width: 165px;
+  height: 48px; */
   object-fit: contain;
 }
 .mobcol{
   padding-left: 83px;
 }
 .amockupdownload_app {
-  width: 354px;
-  height: 454px;
+  /* width: 354px;
+  height: 454px; */
   object-fit: contain;
 }
 .bimg1{
@@ -590,7 +589,7 @@ background-color: blue;
   columns: #383e69;
 }
 .Featured-Articles- {
-  margin: 0 293px 60px 294px;
+  margin: 0 0 60px 0;
   font-family: 'Nunito';
   font-size: 55px;
   font-weight: bold;
@@ -758,15 +757,7 @@ background-color: blue;
   border: 10px solid white;
 border-radius: 50%;
 }
-.cardcol1{
-  padding-left: 70px;
-}
-.cardcol2{
-  padding: 0 30px;
-}
-.cardcol3{
-  padding-right: 70px;
-}
+
 
 
 
@@ -782,28 +773,104 @@ border-radius: 50%;
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
+  .Landing-Page{
+    width: 100%;
+  }
+  .AI-Educator-ill_02-01{
+    width: 100%;
+    height: auto;
+}
+  
 .tickcol{
   width: 100%;
+  height: auto;
+}
+.differentpadding{
+  padding: 60px 0;
+}
+.Zone-of-Proximal-Fai{
+  margin-left: 0;
+  margin-top: 60px;
+}
+.commontxt{
+  margin-left: 0;
+}
+.Group-44-Copy {
+  margin-left: 0;
+}
+.Problem-Solving-Gap{
+  margin-top: 60px;
 }
   
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
+  .Landing-Page{
+    width: 100%;
+  }
+  .AI-Educator-ill_02-01{
+    width: 100%;
+    height: auto;
+}
+.differentpadding{
+  padding: 60px 0;
+}
+.Zone-of-Proximal-Fai{
+  margin-left: 0;
+   margin-top: 60px;
+}
+.commontxt{
+  margin-left: 0;
+}
+.Group-44-Copy {
+  margin-left: 0;
+}
+.Problem-Solving-Gap{
+  margin-top: 60px;
+}
+  }
 
  
-
-
-  
-}
 
 
 
 @media (min-width: 320px) and (max-width: 480px) {
- 
+ .differentpadding{
+  padding: 60px 0;
+}
+.Zone-of-Proximal-Fai{
+  margin-left: 0;
+   margin-top: 60px;
+}
+.commontxt{
+  margin-left: 0;
+}
+.Group-44-Copy {
+  margin-left: 0;
+}
+.Problem-Solving-Gap{
+  margin-top: 60px;
+}
  
 }
 @media(min-width:0px) and (max-width:319px){
   .tickcol{
   width: 100%;
+}
+.differentpadding{
+  padding: 60px 0;
+}
+.Zone-of-Proximal-Fai{
+  margin-left: 0;
+   margin-top: 60px;
+}
+.commontxt{
+  margin-left: 0;
+}
+.Group-44-Copy {
+  margin-left: 0;
+}
+.Problem-Solving-Gap{
+  margin-top: 60px;
 }
 }
