@@ -45,7 +45,7 @@ a{
   margin: 0;
 }
 .rectangle{
-padding: 2rem 7rem;
+  padding: 2rem 7rem;
 }
 .alogoaicolour {
   width: 20.7rem;
@@ -67,7 +67,6 @@ padding: 2rem 7rem;
   width: 15rem;
   height: 4rem;
   text-align: center;
-  margin-left: 7rem;
   border-radius: 6px;
   background-color: var(--azure);
 }
@@ -101,12 +100,11 @@ padding: 2rem 7rem;
 }
 .headpart{
   background-color: #f4f5f7;
+  padding: 0 7rem;
 }
-.imgcol{
-  padding-right: 7rem;
-}
+
 .Master-Machine-Learn {
-  margin: 12rem 0 0 7rem;
+  margin: 12rem 0 0 0;
   font-family: 'Nunito';
   font-size: 5rem;
   font-weight: bold;
@@ -117,7 +115,7 @@ padding: 2rem 7rem;
   color: var(--dark);
 }
 .in-just-3-Months {
-  margin: 10px 0 30px 70px;
+  margin: 10px 0 30px 0;
   font-family: 'Nunito';
   font-size: 5rem;
   font-weight: bold;
@@ -131,7 +129,7 @@ padding: 2rem 7rem;
 .aiconscommongreen_tick {
   width: 20px;
   height: 20px;
-  margin: 0 0 .5rem 7rem;
+  margin: 0 0 .5rem 0;
   object-fit: contain; 
 }
 
@@ -193,7 +191,9 @@ padding: 2rem 7rem;
   text-align: center;
   color: var(--dark);
 }
-
+.card{
+  border-radius: 15px;
+}
 .cardtitle {
   margin:10px 0 0 20px;
   font-family: 'Nunito';
@@ -252,8 +252,11 @@ padding: 2rem 7rem;
   margin: 60px 0 0 0;
   object-fit: contain;
 }
+.paddcol{
+  padding: 0 5.4rem;
+}
 .Zone-of-Proximal-Fai {
-  margin: 126px 0 15px 54px;
+  margin: 126px 0 15px 0;
   font-family: 'Nunito';
   font-size: 40px;
   font-weight: bold;
@@ -264,7 +267,7 @@ padding: 2rem 7rem;
   color: var(--dark);
 }
 .commontxt {
-  margin: 0 0 15px 54px;
+  margin: 0 0 15px 0;
   font-family: 'Nunito';
   font-size: 20px;
   font-weight: normal;
@@ -307,13 +310,13 @@ padding: 2rem 7rem;
 .Group-44-Copy {
   /* width: 458px;
   height: 480px; */
-  margin: 60px 0 0 54px;
+  margin: 60px 0 0 0;
   object-fit: contain;
 }
 .button3 {
   width: 190px;
   height: 40px;
-  margin-left: 54px;
+  /* margin-left: 54px; */
   border-radius: 6px;
   background-color: var(--azure);
 }
@@ -575,13 +578,16 @@ padding: 2rem 7rem;
   object-fit: contain;
 }
 .bimg1{
-background-color: blue;
+  background-color: blue;
+  border-radius: 15px 15px 0px 0px;
 }
 .bimg2{
   background-color: skyblue;
+  border-radius: 15px 15px 0px 0px;
 }
 .bimg3{
   background-color: slateblue;
+  border-radius: 12px 12px 0px 0px;
 }
 .booktext{
   font-family: 'Nunito';
@@ -764,7 +770,7 @@ border-radius: 50%;
 
 
 
-@media (min-width: 1281px) {
+@media (min-width: 1281px) and (max-width:1440px) {
 
   
 }
@@ -773,6 +779,7 @@ border-radius: 50%;
 .tickcol{
   width: 100%;
 }
+
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -804,6 +811,9 @@ border-radius: 50%;
 .Problem-Solving-Gap{
   margin-top: 60px;
 }
+.mailboxsec{
+  margin: 120px 0 0 0 ;
+}
   
 }
 
@@ -831,6 +841,15 @@ border-radius: 50%;
 .Problem-Solving-Gap{
   margin-top: 60px;
 }
+.paddcol{
+  padding: 0;
+}
+.rowcenter{
+  text-align: center ;
+}
+.mailboxsec{
+  margin: 120px 0 0 0 ;
+}
   }
 
  
@@ -854,6 +873,15 @@ border-radius: 50%;
 .Problem-Solving-Gap{
   margin-top: 60px;
 }
+.paddcol{
+  padding: 0;
+}
+.rowcenter{
+  text-align: center;
+}
+.mailboxsec{
+  margin: 120px 0 0 0 ;
+}
  
 }
 @media(min-width:0px) and (max-width:319px){
@@ -875,5 +903,14 @@ border-radius: 50%;
 }
 .Problem-Solving-Gap{
   margin-top: 60px;
+}
+.paddcol{
+  padding: 0;
+}
+.rowcenter{
+  text-align: center;
+}
+.mailboxsec{
+  margin: 120px 0 0 0 ;
 }
 }
