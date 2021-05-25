@@ -669,6 +669,12 @@ a{
   letter-spacing: normal;
   color: var(--dark-grey-blue);
 }
+.form-control:focus {
+    color: #212529;
+    /* background-color: #fff; */
+    outline: 0;
+    box-shadow: none;
+}
 .mailboximg{
   padding: 48px 70px 48px 13px;
 }
@@ -712,7 +718,7 @@ a{
 }
 .footersec{
   margin: 120px 0 0;
-  padding: 70px 70px 0 70px;
+  padding: 70px 70px 14px 70px;
   background-color: var(--pale-grey);
 }
 .Connect-with-Us {
