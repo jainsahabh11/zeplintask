@@ -14,15 +14,18 @@
   --warm-blue: #3a5edd;
   --butterscotch: #ffb44d;
 }
-html{
+
+html {
   font-size: 62.5%;
 }
-*{
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-li .active{
+
+li .active {
   text-decoration: underline;
 }
 
@@ -30,13 +33,15 @@ li .active{
 a{
   text-decoration: none;
 }*/
- ul{
+ul {
   list-style: none;
-} 
-.img-fluid {
-    max-width: 100%;
-    height: auto;
 }
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
 .Landing-Page {
   padding: 0;
   background-color: var(--white);
@@ -44,16 +49,19 @@ a{
   height: auto;
   margin: 0;
 }
-.rectangle{
+
+.rectangle {
   padding: 2rem 7rem;
 }
+
 .alogoaicolour {
   width: 20.7rem;
   height: 3rem;
   object-fit: contain;
 }
+
 .Home {
-  font-family:'Nunito';
+  font-family: 'Nunito';
   font-size: 1.6rem;
   font-weight: bold;
   font-stretch: normal;
@@ -63,14 +71,16 @@ a{
   color: #335ce5;
   margin-right: 4rem;
 }
-.button{
+
+.button {
   width: 15rem;
   height: 4rem;
   text-align: center;
-  border-radius: 6px;
+  border-radius: .6rem;
   background-color: var(--azure);
 }
-.button-text{
+
+.button-text {
   font-family: 'Nunito';
   font-size: 1.6rem;
   font-weight: bold;
@@ -81,26 +91,59 @@ a{
   text-align: center;
   color: var(--white);
 }
+
 .Color {
   width: 11rem;
   height: 3.6rem;
   margin: .5rem 0 0 0;
-  border-radius: 6px;
+  border-radius: .6rem;
   background-color: var(--azure);
 }
+
 .Enter-button-text {
   font-family: 'Nunito';
   font-size: 1.6rem;
   font-weight: bold;
   line-height: 2.6rem;
   letter-spacing: 0;
-  text-align: center; 
+  text-align: center;
   color: var(--white);
   margin-bottom: 0;
 }
-.headpart{
+
+.headpart {
   background-color: #f4f5f7;
   padding: 0 7rem;
+}
+
+.navbar-toggler {
+  background: #26ae61;
+  border: none;
+  margin: 1.3rem 0;
+
+  padding: .7rem .7rem .7rem;
+  outline: none;
+
+}
+
+.navbar-toggler span {
+  display: block;
+  width: 2.2rem;
+  height: .2rem;
+  border: .1rem;
+  background: #fff;
+
+
+}
+
+.navbar-toggler span+span {
+  margin-top: .4rem;
+  width: 2.2rem;
+
+}
+
+.navbar-toggler span+span+span {
+  width: 2.2rem;
 }
 
 .Master-Machine-Learn {
@@ -114,8 +157,9 @@ a{
   letter-spacing: normal;
   color: var(--dark);
 }
+
 .in-just-3-Months {
-  margin: 10px 0 30px 0;
+  margin: 1rem 0 3rem 0;
   font-family: 'Nunito';
   font-size: 5rem;
   font-weight: bold;
@@ -127,16 +171,16 @@ a{
 }
 
 .aiconscommongreen_tick {
-  width: 20px;
-  height: 20px;
+  width: 2rem;
+  height: 2rem;
   margin: 0 0 .5rem 0;
-  object-fit: contain; 
+  object-fit: contain;
 }
 
-.oval_text{
-  margin: 0 0 0 20px;
+.oval_text {
+  margin: 0 0 0 2rem;
   font-family: 'Nunito';
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -156,31 +200,36 @@ a{
   text-align: center;
   color: var(--white);
 }
+
 .Fill-57 {
   width: 6.33rem;
   height: 6.32rem;
-  margin: 160px 0 66.1px 180px;
+  margin: 16rem 0 6.61rem 18rem;
   object-fit: contain;
   border-radius: 50%;
   background-color: var(--warm-blue);
 }
+
 .AI-Educator-ill_02-01 {
   /* width: 654px;
   height: 659px; */
-  margin: 70px 0 0 0;
+  margin: 7rem 0 0 0;
   object-fit: contain;
 }
+
 .Group-49 {
   /* width: 1280px;
   height: 725px; */
-  margin: 71px 0 64px;
+  margin: 7.1rem 0 6.4rem;
   object-fit: contain;
 }
-.ourCourses{
-  padding: 0 70px;
+
+.ourCourses {
+  padding: 0 7rem;
 }
+
 .Our-Courses {
-  margin: 0 0 40px;
+  margin: 0 0 4rem;
   font-family: 'Nunito';
   font-size: 5.5rem;
   font-weight: bold;
@@ -191,11 +240,13 @@ a{
   text-align: center;
   color: var(--dark);
 }
-.card{
-  border-radius: 15px;
+
+.card {
+  border-radius: 1.5rem;
 }
+
 .cardtitle {
-  margin:10px 0 0 20px;
+  margin: 1rem 0 0 2rem;
   font-family: 'Nunito';
   font-size: 2rem;
   font-weight: bold;
@@ -205,6 +256,7 @@ a{
   letter-spacing: 0;
   color: var(--dark);
 }
+
 .hours {
   font-family: 'Nunito';
   font-size: 1.6rem;
@@ -215,20 +267,23 @@ a{
   letter-spacing: normal;
   color: var(--dark-grey-blue);
 }
+
 .aiconscommonhours {
   width: 2rem;
   height: 2.1rem;
   object-fit: contain;
-  margin-left:20px;
-  margin-right: 7px;
+  margin-left: 2rem;
+  margin-right: .7rem;
 }
-.button1{
+
+.button1 {
   width: 21.8rem;
   height: 4.6rem;
 
   border-radius: .6rem;
   background-color: var(--azure);
 }
+
 .What-makes-us-differ {
 
   font-family: 'Nunito';
@@ -241,61 +296,69 @@ a{
   text-align: center;
   color: var(--dark);
 }
-.differentpadding{
-  padding: 60px 97px;
+
+.differentpadding {
+  padding: 6rem 9.7rem;
 }
 
 .What-makes-us-differ .text-style-1 {
   color: var(--topaz);
 }
+
 .Group-30 {
-  margin: 60px 0 0 0;
+  margin: 6rem 0 0 0;
   object-fit: contain;
 }
-.paddcol{
+
+.paddcol {
   padding: 0 5.4rem;
 }
+
 .Zone-of-Proximal-Fai {
-  margin: 126px 0 15px 0;
-  font-family: 'Nunito';
-  font-size: 40px;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 50px;
-  letter-spacing: 0;
-  color: var(--dark);
-}
-.commontxt {
-  margin: 0 0 15px 0;
-  font-family: 'Nunito';
-  font-size: 20px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 30px;
-  letter-spacing: 0;
-  color: var(--dark-grey-blue);
-}
-.aiconsbanner_video {
-  width: 32px;
-  height: 32px;
-  margin: 0 9px 0 0;
-  object-fit: contain;
-}
-.Problem-Solving-Gap {
-  margin: 152px 0 15px 0;
+  margin: 12.6rem 0 1.5rem 0;
   font-family: 'Nunito';
   font-size: 4rem;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
-  line-height:5rem;
+  line-height: 5rem;
+  letter-spacing: 0;
+  color: var(--dark);
+}
+
+.commontxt {
+  margin: 0 0 1.5rem 0;
+  font-family: 'Nunito';
+  font-size: 2rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 3rem;
+  letter-spacing: 0;
+  color: var(--dark-grey-blue);
+}
+
+.aiconsbanner_video {
+  width: 3.2rem;
+  height: 3.2rem;
+  margin: 0 .9rem 0 0;
+  object-fit: contain;
+}
+
+.Problem-Solving-Gap {
+  margin: 15.2rem 0 1.5rem 0;
+  font-family: 'Nunito';
+  font-size: 4rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 5rem;
   letter-spacing: normal;
   color: var(--dark);
 }
+
 .commontxt2 {
-  margin: 0 0 15px 0;
+  margin: 0 0 1.5rem 0;
   font-family: 'Nunito';
   font-size: 2rem;
   font-weight: normal;
@@ -308,44 +371,41 @@ a{
 
 
 .Group-44-Copy {
-  /* width: 458px;
-  height: 480px; */
-  margin: 60px 0 0 0;
+  margin: 6rem 0 0 0;
   object-fit: contain;
 }
+
 .button3 {
-  width: 190px;
-  height: 40px;
+  width: 19rem;
+  height: 4rem;
   /* margin-left: 54px; */
-  border-radius: 6px;
+  border-radius: .6rem;
   background-color: var(--azure);
 }
 
 .Group-44 {
-  /* width: 459px;
-  height: 482px; */
-  margin: 60px 3px 0px 0;
+
+  margin: 6rem .3rem 0 0;
   object-fit: contain;
 }
 
 
 .Group-62 {
-  /* width: 492px;
-  height: 458px;
-  margin: 60px 168px 60px 26px; */
-  margin: 60px 0 0 0;
+  margin: 6rem 0 0 0;
   object-fit: contain;
 }
+
 .Group-30-2 {
-  width: 480px;
-  height: 479px;
-  margin: 0 7px 0px 97px;
+  width: 48rem;
+  height: 47.9rem;
+  margin: 0 .7rem 0 9.7rem;
   object-fit: contain;
 }
+
 .Virtual-Classroom {
-  margin: 102px 98px 15px 51px;
+  margin: 10.2rem 9.8rem 1.5rem 5.1rem;
   font-family: 'Nunito';
-  font-size: 40px;
+  font-size: 4rem;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -353,10 +413,11 @@ a{
   letter-spacing: normal;
   color: var(--dark);
 }
+
 .Major-Projects {
-  margin: 173px 66px 15px 97px;
+  margin: 17.3rem 6.6rem 1.5rem 9.7rem;
   font-family: 'Nunito';
-  font-size: 40px;
+  font-size: 4rem;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -364,17 +425,19 @@ a{
   letter-spacing: normal;
   color: var(--dark);
 }
+
 .Group-47 {
-  width: 507px;
-  height: 458px;
-  margin: 60px 139px 0px 3px;
+  width: 50.7rem;
+  height: 45.8rem;
+  margin: 6rem 13.9rem 0 .3rem;
   object-fit: contain;
 }
+
 .Career-Support {
 
-  margin: 147px 0 15px 51px;
+  margin: 14.7rem 0 1.5rem 5.1rem;
   font-family: 'Nunito';
-  font-size: 40px;
+  font-size: 4rem;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -382,10 +445,11 @@ a{
   letter-spacing: normal;
   color: var(--dark);
 }
+
 .With-all-these-you-c {
   /* margin: 0 0 15px 0; */
   font-family: 'Nunito';
-  font-size: 24px;
+  font-size: 2.4rem;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -398,11 +462,12 @@ a{
 .With-all-these-you-c .text-style-1 {
   color: var(--topaz);
 }
+
 .The-future-of-our-wo {
 
-  margin: 15px 0 0;
+  margin: 1.5rem 0 0;
   font-family: 'Nunito';
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -411,14 +476,16 @@ a{
   text-align: center;
   color: var(--dark-grey-blue);
 }
-.goahead{
+
+.goahead {
   background-color: var(--pale-grey);
 }
+
 .Get-Ahead-with-AI-Ed {
-  margin: 60px 0 0 0;
-  padding-top: 80px;
+  margin: 6rem 0 0 0;
+  padding-top: 8rem;
   font-family: 'Nunito';
-  font-size: 55px;
+  font-size: 5.5rem;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -431,34 +498,39 @@ a{
 .Get-Ahead-with-AI-Ed .text-style-1 {
   color: #00cdb9;
 }
+
 .acertificate {
-  /* width: 555px;
-  height: 399px; */
-  margin: 60px 0 156px 0;
+
+  margin: 6rem 0 15.6rem 0;
   object-fit: contain;
 }
+
 .Rectangle-Copy-3 {
   position: absolute;
-  width: 750px;
-  height: 179px;
-  margin: -90px 1px 0 0;
-  border-radius: 10px;
-  box-shadow: 0 12px 30px -19px rgba(0, 0, 0, 0.2);
+  width: 75rem;
+  height: 17.9rem;
+  margin: -9rem .1rem 0 0;
+  border-radius: 1rem;
+  box-shadow: 0 1.2rem 3rem -1.9rem rgba(0, 0, 0, 0.2);
   border: solid 1px #e5eff2;
   background-color: var(--white);
 }
-.caritem{
-  padding-top: 50px;
+
+.caritem {
+  padding-top: 5rem;
 }
-.lhs{
-  padding-top: 45px;
+
+.lhs {
+  padding-top: 4.5rem;
 }
-.rhs{
-  padding-top: 45px;
+
+.rhs {
+  padding-top: 4.5rem;
 }
-.carstext{
+
+.carstext {
   font-family: 'Nunito';
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -466,10 +538,11 @@ a{
   letter-spacing: normal;
   color: var(--dark-grey-blue);
 }
+
 .Our-Constant-Support {
-  margin: 200px 0 60px 0;
+  margin: 2rem 0 6rem 0;
   font-family: 'Nunito';
-  font-size: 55px;
+  font-size: 5.5rem;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -490,24 +563,27 @@ a{
 .Our-Constant-Support .text-style-3 {
   color: #00cdb9;
 }
-.cardrectangle{
-  border-radius: 10px;
-  box-shadow: 0 12px 30px -19px rgba(0, 0, 0, 0.2);
-  padding: 40px 30px 30px 40px;
+
+.cardrectangle {
+  border-radius: 1rem;
+  box-shadow: 0 1.2rem 3rem -1.9rem rgba(0, 0, 0, 0.2);
+  padding: 4rem 3rem 3rem 4rem;
   border: solid 1px #e5eff2;
   text-align: center;
   align-items: center;
   background-color: var(--white);
 }
+
 .aprofile3 {
-  width: 100px;
-  height: 100px; 
+  width: 10rem;
+  height: 10rem;
   object-fit: contain;
 }
-.card-titles{
-  margin: 30px 0 0 0;
+
+.card-titles {
+  margin: 3rem 0 0 0;
   font-family: 'Nunito';
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -515,10 +591,11 @@ a{
   letter-spacing: normal;
   color: var(--dark);
 }
+
 .card_texts {
-  margin: 5px 0 0;
+  margin: .5rem 0 0;
   font-family: 'Nunito';
-  font-size: 14px;
+  font-size: 1.4rem;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -527,10 +604,11 @@ a{
   text-align: center;
   color: var(--dark-grey-blue);
 }
+
 .cardpara {
-  margin: 20px 0 0 0;
+  margin: 2rem 0 0 0;
   font-family: 'Nunito';
-  font-size: 14px;
+  font-size: 1.4rem;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -539,21 +617,20 @@ a{
   text-align: center;
   color: var(--dark-grey-blue);
 }
-/* .downimg{
-  background: aliceblue;
-  background-color: aliceblue;
-} */
-.downcol{
-      padding: 70px 0 70px 70px;
+
+.downcol {
+  padding: 7rem 0 7rem 7rem;
 }
-.downloadsec{
-  margin: 119px 0 121px;
-  /* padding: 70px; */
-  object-fit: contain; background-image: url('images/bg.svg');
+
+.downloadsec {
+  margin: 11.9rem 0 12.1rem;
+  object-fit: contain;
+  background-image: url('images/bg.svg');
 }
+
 .Download-the-App-Now {
   font-family: 'Nunito';
- 
+
   text-align: center;
   font-size: 5.1rem;
   font-weight: bold;
@@ -563,33 +640,37 @@ a{
   letter-spacing: normal;
   color: var(--dark);
 }
+
 .mbuttonsplaystoregoogle_play {
   background-image: url('images/bg.svg');
-  /* width: 165px;
-  height: 48px; */
+
   object-fit: contain;
 }
-.mobcol{
+
+.mobcol {
   padding-left: 83px;
 }
+
 .amockupdownload_app {
-  /* width: 354px;
-  height: 454px; */
   object-fit: contain;
 }
-.bimg1{
+
+.bimg1 {
   background-color: blue;
-  border-radius: 15px 15px 0px 0px;
+  border-radius: 1.5rem 1.5rem 0 0;
 }
-.bimg2{
+
+.bimg2 {
   background-color: skyblue;
-  border-radius: 15px 15px 0px 0px;
+  border-radius: 1.5rem 1.5rem 0 0;
 }
-.bimg3{
+
+.bimg3 {
   background-color: slateblue;
-  border-radius: 12px 12px 0px 0px;
+  border-radius: 1.2rem 1.2rem 0 0;
 }
-.booktext{
+
+.booktext {
   font-family: 'Nunito';
   font-weight: normal;
   font-size: 1.6rem;
@@ -597,10 +678,11 @@ a{
   letter-spacing: 0;
   columns: #383e69;
 }
+
 .Featured-Articles- {
-  margin: 0 0 60px 0;
+  margin: 0 0 6rem 0;
   font-family: 'Nunito';
-  font-size: 55px;
+  font-size: 5.5rem;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -617,10 +699,11 @@ a{
 .Featured-Articles- .text-style-2 {
   color: #00cdb9;
 }
+
 .Artificial-Intellige {
-  padding: 20px 20px 10px;
+  padding: 2rem 2rem 1rem;
   font-family: 'Nunito';
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -628,11 +711,12 @@ a{
   letter-spacing: normal;
   color: var(--dark);
 }
+
 .Artificial-para {
- 
-  padding: 10px 20px 15px;
+
+  padding: 1rem 2rem 1.5rem;
   font-family: 'Nunito';
-  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -640,16 +724,20 @@ a{
   letter-spacing: normal;
   color: var(--dark-grey-blue);
 }
-.mailboxsec{
-  margin: 120px 70px 0 70px ;background-color: #f0f5f9;  
+
+.mailboxsec {
+  margin: 12rem 7rem 0;
+  background-color: #f0f5f9;
 }
-.mailboxcol{
-  padding: 70px;
+
+.mailboxcol {
+  padding: 7rem;
 }
+
 .Dont-want-to-miss-a {
-  margin: 0 0 15px 0;
+  margin: 0 0 1.5rem 0;
   font-family: 'Nunito';
-  font-size: 40px;
+  font-size: 4rem;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -657,11 +745,12 @@ a{
   letter-spacing: normal;
   color: var(--dark);
 }
+
 .Get-weekly-updates-o {
-  margin: 0px 0 30px 0;
- 
+  margin: 0 0 3rem 0;
+
   font-family: 'Nunito';
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -669,23 +758,22 @@ a{
   letter-spacing: normal;
   color: var(--dark-grey-blue);
 }
+
 .form-control:focus {
-    color: #212529;
-    /* background-color: #fff; */
-    outline: 0;
-    box-shadow: none;
+  color: #212529;
+  outline: 0;
+  box-shadow: none;
 }
-.mailboximg{
-  padding: 48px 70px 48px 13px;
+
+.mailboximg {
+  padding: 4.8rem 7rem 4.8rem 1.3rem;
 }
+
 .aillustrationarticle_detailnewsletter {
-  /* width: 354px;
-  height: 354px; */
-  
-  /* margin: 0 0 0 83px; */
   object-fit: contain;
 }
-.emaillabel{
+
+.emaillabel {
   font-family: "Nunito";
   font-weight: normal;
   font-size: 1.2rem;
@@ -693,7 +781,8 @@ a{
   letter-spacing: normal;
   color: #383e69;
 }
-.emailtext{
+
+.emailtext {
   font-family: 'Nunito';
   font-weight: normal;
   font-size: 1.6rem;
@@ -701,14 +790,16 @@ a{
   letter-spacing: normal;
   color: #383e69;
 }
-.emailinp{
+
+.emailinp {
   border: none;
   background-color: #f0f5f9;
 }
+
 .Courses {
-  margin: 0 188px 40px 0;
+  margin: 0 18.8rem 4rem 0;
   font-family: 'Nunito';
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -716,16 +807,18 @@ a{
   letter-spacing: normal;
   color: var(--dark);
 }
-.footersec{
-  margin: 120px 0 0;
-  padding: 70px 70px 14px 70px;
+
+.footersec {
+  margin: 12rem 0 0;
+  padding: 7rem 7rem 1.4rem;
   background-color: var(--pale-grey);
 }
+
 .Connect-with-Us {
-  margin: 0 17px 40px 0;
-  margin-bottom: 40px;
+  margin: 0 1.7rem 4rem 0;
+  margin-bottom: 4rem;
   font-family: 'Nunito';
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -733,10 +826,11 @@ a{
   letter-spacing: normal;
   color: var(--dark);
 }
+
 .Explore {
-  margin: 0 130px 15px 0;
+  margin: 0 13rem 1.5rem 0;
   font-family: 'Nunito';
-  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -744,10 +838,10 @@ a{
   letter-spacing: normal;
   color: var(--dark-grey-blue);
 }
+
 .Copyright-2020-AI {
-  /* margin: 0 659px 1px 0; */
   font-family: 'Nunito';
-  font-size: 12px;
+  font-size: 1.2rem;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -755,11 +849,11 @@ a{
   letter-spacing: normal;
   color: var(--dark-grey-blue);
 }
+
 .Terms-Conditions {
- 
-  /* margin: 0 30px 0 900px; */
+
   font-family: 'Nunito';
-  font-size: 12px;
+  font-size: 1.2rem;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -767,156 +861,258 @@ a{
   letter-spacing: normal;
   color: var(--dark-grey-blue);
 }
-.icon{
+
+.icon {
 
   border: 10px solid white;
-border-radius: 50%;
+  border-radius: 50%;
 }
 
 
 
 
-@media (min-width: 1281px) and (max-width:1440px) {
-
-  
-}
+@media (min-width: 1281px) and (max-width:1440px) {}
 
 @media (min-width: 1025px) and (max-width: 1280px) {
-.tickcol{
-  width: 100%;
-}
+  .tickcol {
+    width: 100%;
+  }
 
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  .Landing-Page{
+  .Landing-Page {
     width: 100%;
   }
-  .AI-Educator-ill_02-01{
+
+  .AI-Educator-ill_02-01 {
     width: 100%;
     height: auto;
-}
-  
-.tickcol{
-  width: 100%;
-  height: auto;
-}
-.differentpadding{
-  padding: 60px 0;
-}
-.Zone-of-Proximal-Fai{
-  margin-left: 0;
-  margin-top: 60px;
-}
-.commontxt{
-  margin-left: 0;
-}
-.Group-44-Copy {
-  margin-left: 0;
-}
-.Problem-Solving-Gap{
-  margin-top: 60px;
-}
-.mailboxsec{
-  margin: 120px 0 0 0 ;
-}
-  
+  }
+
+  .tickcol {
+    width: 100%;
+    height: auto;
+  }
+
+  .differentpadding {
+    padding: 60px 0;
+  }
+
+  .Zone-of-Proximal-Fai {
+    margin-left: 0;
+    margin-top: 60px;
+  }
+
+  .commontxt {
+    margin-left: 0;
+  }
+
+  .Group-44-Copy {
+    margin-left: 0;
+  }
+
+  .Problem-Solving-Gap {
+    margin-top: 60px;
+  }
+
+  .mailboxsec {
+    margin: 120px 0 0 0;
+  }
+
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
-  .Landing-Page{
+  .Landing-Page {
     width: 100%;
-  }
-  .AI-Educator-ill_02-01{
-    width: 100%;
-    height: auto;
-}
-.differentpadding{
-  padding: 60px 0;
-}
-.Zone-of-Proximal-Fai{
-  margin-left: 0;
-   margin-top: 60px;
-}
-.commontxt{
-  margin-left: 0;
-}
-.Group-44-Copy {
-  margin-left: 0;
-}
-.Problem-Solving-Gap{
-  margin-top: 60px;
-}
-.paddcol{
-  padding: 0;
-}
-.rowcenter{
-  text-align: center ;
-}
-.mailboxsec{
-  margin: 120px 0 0 0 ;
-}
   }
 
- 
+  .AI-Educator-ill_02-01 {
+    width: 100%;
+    height: auto;
+  }
+
+  .differentpadding {
+    padding: 60px 0;
+  }
+
+  .Zone-of-Proximal-Fai {
+    margin-left: 0;
+    margin-top: 60px;
+  }
+
+  .commontxt {
+    margin-left: 0;
+  }
+
+  .Group-44-Copy {
+    margin-left: 0;
+  }
+
+  .Problem-Solving-Gap {
+    margin-top: 60px;
+  }
+
+  .paddcol {
+    padding: 0;
+  }
+
+  .rowcenter {
+    text-align: center;
+  }
+
+  .mailboxsec {
+    margin: 120px 0 0 0;
+  }
+
+  .rectangle {
+    padding: 1.5rem 3rem;
+  }
+
+  .headpart {
+    padding: 0 3rem;
+  }
+
+  .ourCourses {
+    padding: 0 3rem;
+  }
+
+  .downcol {
+    padding: 3rem 0 3rem 3rem;
+  }
+
+  .mbuttonsplaystoregoogle_play {
+    padding: 0 0 0 5rem;
+  }
+
+  .footersec {
+    padding: 3rem 3rem 1.4rem;
+  }
+}
+
+
 
 
 
 @media (min-width: 320px) and (max-width: 480px) {
- .differentpadding{
-  padding: 60px 0;
+  .differentpadding {
+    padding: 60px 0;
+  }
+
+  .Zone-of-Proximal-Fai {
+    margin-left: 0;
+    margin-top: 60px;
+  }
+
+  .commontxt {
+    margin-left: 0;
+  }
+
+  .Group-44-Copy {
+    margin-left: 0;
+  }
+
+  .Problem-Solving-Gap {
+    margin-top: 60px;
+  }
+
+  .paddcol {
+    padding: 0;
+  }
+
+  .rowcenter {
+    text-align: center;
+  }
+
+  .mailboxsec {
+    margin: 120px 0 0 0;
+  }
+
+  .rectangle {
+    padding: 2rem;
+  }
+
+  .headpart {
+    padding: 0 2rem;
+  }
+
+  .ourCourses {
+    padding: 0 2rem;
+  }
+
+  .downcol {
+    padding: 2rem 0 2rem 2rem;
+  }
+
+  .mbuttonsplaystoregoogle_play {
+    padding: 0 0 0 5rem;
+  }
+
+  .footersec {
+    padding: 2rem 2rem 1rem;
+  }
+
 }
-.Zone-of-Proximal-Fai{
-  margin-left: 0;
-   margin-top: 60px;
-}
-.commontxt{
-  margin-left: 0;
-}
-.Group-44-Copy {
-  margin-left: 0;
-}
-.Problem-Solving-Gap{
-  margin-top: 60px;
-}
-.paddcol{
-  padding: 0;
-}
-.rowcenter{
-  text-align: center;
-}
-.mailboxsec{
-  margin: 120px 0 0 0 ;
-}
- 
-}
-@media(min-width:0px) and (max-width:319px){
-  .tickcol{
-  width: 100%;
-}
-.differentpadding{
-  padding: 60px 0;
-}
-.Zone-of-Proximal-Fai{
-  margin-left: 0;
-   margin-top: 60px;
-}
-.commontxt{
-  margin-left: 0;
-}
-.Group-44-Copy {
-  margin-left: 0;
-}
-.Problem-Solving-Gap{
-  margin-top: 60px;
-}
-.paddcol{
-  padding: 0;
-}
-.rowcenter{
-  text-align: center;
-}
-.mailboxsec{
-  margin: 120px 0 0 0 ;
-}
+
+@media(min-width:0px) and (max-width:319px) {
+  .tickcol {
+    width: 100%;
+  }
+
+  .differentpadding {
+    padding: 60px 0;
+  }
+
+  .Zone-of-Proximal-Fai {
+    margin-left: 0;
+    margin-top: 60px;
+  }
+
+  .commontxt {
+    margin-left: 0;
+  }
+
+  .Group-44-Copy {
+    margin-left: 0;
+  }
+
+  .Problem-Solving-Gap {
+    margin-top: 60px;
+  }
+
+  .paddcol {
+    padding: 0;
+  }
+
+  .rowcenter {
+    text-align: center;
+  }
+
+  .mailboxsec {
+    margin: 120px 0 0 0;
+  }
+
+  .rectangle {
+    padding: 1rem;
+  }
+
+  .headpart {
+    padding: 0 1rem;
+  }
+
+  .ourCourses {
+    padding: 0 1rem
+  }
+
+  .downcol {
+    padding: 1rem 0 1rem 1rem;
+  }
+
+  .mbuttonsplaystoregoogle_play {
+    padding: 0 0 0 5rem;
+  }
+
+  .footersec {
+    padding: 1rem 1rem .6rem;
+  }
 }
